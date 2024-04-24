@@ -285,7 +285,7 @@ export const education: TimelineItem[] = [
     date: 'March 2003',
     location: 'Elite High School of Sousse',
     title: 'Scientific Baccalaureate',
-    content: <p>I completed my Baccalaureate with a note 1.7 (17.01/20). My studies where focused on Computer Science, Math, Electrical engineering and Mechanical engineering </p>,
+    content: <p>I completed my Baccalaureate with a note 1.3 (17.01/20). My studies where focused on Computer Science, Math, Electrical engineering and Mechanical engineering </p>,
   },
 ];
 
