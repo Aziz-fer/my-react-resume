@@ -2,7 +2,6 @@ import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   CalendarIcon,
-  FlagIcon,
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
