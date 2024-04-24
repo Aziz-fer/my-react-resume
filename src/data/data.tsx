@@ -61,11 +61,11 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Mohamed Aziz Feriani.`,
+  name: `I'm Aziz Feriani.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Tunisian Tu Dortmund Computer Science graduate , worked
+        I'm a computer science graduate based in dortmund , worked
         at <strong className="text-stone-100">WILO</strong> as a Software Testing helping build Python tools for Testing 
         and Testing different software releases.
       </p>
@@ -101,7 +101,6 @@ export const aboutData: About = {
   aboutItems: [
     {label: 'Location', text: 'Dortmund, Germany', Icon: MapIcon},
     {label: 'Age', text: '24', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Tunisian', Icon: FlagIcon},
     {label: 'Interests', text: 'Gaming,Traveling,Fitness Training,Coding', Icon: SparklesIcon},
     {label: 'Study', text: 'Technical University Of Dortmund', Icon: AcademicCapIcon},
   ],
@@ -115,19 +114,15 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
-        level: 9,
-      },
-      {
-        name: 'French',
-        level: 8,
-      },
-      {
         name: 'Deutsch',
         level: 9,
       },
       {
-        name: 'Arabic',
+        name: 'English',
+        level: 10,
+      },
+      {
+        name: 'French',
         level: 10,
       },
     ],
@@ -140,20 +135,16 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'Matlab',
-        level: 8,
-      },
-      {
-        name: 'NI TestStand/NI LabVIEW',
-        level: 7,
+        name: 'Bash',
+        level: 10,
       },
       {
         name: 'Test Automation',
-        level: 8,
+        level: 9,
       },
       {
-        name: 'Jenkins',
-        level: 5,
+        name: 'Matlab',
+        level: 9,
       },
       {
         name: 'Tortoise SVN/Git',
@@ -164,8 +155,12 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Bash',
-        level: 9,
+        name: 'NI TestStand/NI LabVIEW',
+        level: 6,
+      },
+      {
+        name: 'Jenkins',
+        level: 5,
       },
     ],
   },
@@ -177,18 +172,6 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'Kotlin',
-        level: 7,
-      },
-      {
-        name: 'C',
-        level: 2,
-      },
-      {
-        name: 'Blockchain and Web3',
-        level: 9,
-      },
-      {
         name: 'SQL',
         level: 10,
       },
@@ -196,34 +179,46 @@ export const skills: SkillGroup[] = [
         name: 'R',
         level: 9,
       },
+      {
+        name: 'Blockchain and Web3',
+        level: 8,
+      },
+      {
+        name: 'Kotlin',
+        level: 7,
+      },
+      {
+        name: 'Typescript',
+        level: 7,
+      },
     ],
   },
   {
     name: 'Skills I learned alone',
     skills: [
       {
-        name: 'Amazon Web Services (AWS)',
+        name: 'NoSQL',
+        level: 9,
+      },
+      {
+        name: 'Microsoft PowerBI',
         level: 8,
       },
       {
-        name: 'Docker',
-        level: 5,
+        name: 'Game Development using Godot/Unreal Engine',
+        level: 8,
       },
       {
-        name: 'Game Development using Godot/Unreal Engine',
-        level: 9,
+        name: 'Amazon Web Services (AWS)',
+        level: 8,
       },
       {
         name: 'Terraform',
         level: 6,
       },
       {
-        name: 'NoSQL',
-        level: 9,
-      },
-      {
-        name: 'Microsoft PowerBI',
-        level: 6,
+        name: 'Docker',
+        level: 5,
       },
     ],
   },
@@ -282,7 +277,7 @@ export const education: TimelineItem[] = [
     content: <p>I completed my Bachlor Degree in 9 Semesters and got 2.7</p>,
   },
   {
-    date: 'March 2003',
+    date: 'June 2018',
     location: 'Elite High School of Sousse',
     title: 'Scientific Baccalaureate',
     content: <p>I completed my Baccalaureate with a note 1.3 (17.01/20). My studies where focused on Computer Science, Math, Electrical engineering and Mechanical engineering </p>,
