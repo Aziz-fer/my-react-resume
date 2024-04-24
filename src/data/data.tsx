@@ -11,7 +11,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage1 from '../images/portfolio/data_quad.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
@@ -234,9 +234,9 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/Aziz-fer',
+    title: 'Data Analysis from TxT files',
+    description: 'This project involves reading data from multiple files, each containing temperature data represented in different number systems (binary, quaternary, and octal). The data is converted to decimal format, visualized using Matplotlib,Numpy and optionally smoothed using spline interpolation from SciPy. Additionally, the project offers functionality to plot specific sections of the data on the x-axis.',
+    url: 'https://github.com/Aziz-fer/txt-data-analysis/tree/main',
     image: porfolioImage1,
   },
   {
