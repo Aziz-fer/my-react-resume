@@ -11,7 +11,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/data_quad.png';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage2 from '../images/portfolio/blockchain.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
@@ -234,9 +234,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/Aziz-fer',
+    title: 'Attack on Proof of Stake Algorithm Simulation',
+    description: 'This project involves implementing an algorithm resembling ETH2.0 Proof of Stake, developing an attack and then using different python libraries such as matplotlib,numpy,Math,random and tkinter. We are able to get a configurable Gui enabling us to visualize different plots and animations',
+    url: 'https://github.com/Aziz-fer/BA-LMD-Ghost-Sim',
     image: porfolioImage2,
   },
   {
