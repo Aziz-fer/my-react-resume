@@ -15,7 +15,7 @@ import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-6.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -228,10 +228,10 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Data Analysis from TxT files',
-    description: 'Python-based project that involves reading data from multiple files, each containing temperature data represented in different number systems (binary, quaternary, and octal). The data is converted to decimal format, visualized using Matplotlib,Numpy and optionally smoothed using spline interpolation from SciPy. Additionally, the project offers functionality to plot specific sections of the data on the x-axis.',
-    url: 'https://github.com/Aziz-fer/txt-data-analysis/tree/main',
-    image: porfolioImage1,
+    title: 'Analysis on Emerging Technology Skills and Trends',
+    description: 'Since I am currently interested in learning and mastering programming languages and skills, I completed this project to benefit myself and others. We will use a variety of data analytics skills and strategies here.',
+    url: 'https://github.com/Aziz-fer/Analysis-on-Emerging-Technology-Skills-and-Trends',
+    image: porfolioImage7,
   },
   {
     title: 'Attack on Proof of Stake Algorithm Simulation',
@@ -240,28 +240,28 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/Aziz-fer',
+    title: 'An HR Dashboard using MySQL and PowerBI',
+    description: 'This dashboard provides a comprehensive and real-time overview of key performance indicators (KPIs) to empower data-driven decision-making. It features an intuitive layout that segments data into clear, actionable insights, enabling quick analysis of trends, performance metrics, and operational efficiency. Designed for optimal user experience, it ensures that stakeholders can easily track progress, identify areas for improvement, and effectively manage business operations.',
+    url: 'https://github.com/Aziz-fer/An-HR-Dashboard-using-MySQL-and-PowerBI',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/Aziz-fer',
+    title: 'Space-X',
+    description: 'About Space X advertises Falcon 9 rocket launches on its website with a cost of 62 million dollars; other providers cost upward of 165 million dollars each, much of the savings is because Space X can reuse the first stage. Therefore if we can determine if the first stage will land, we can determine the cost of a launch.',
+    url: 'https://github.com/Aziz-fer/IBM-DataScience-SpaceX-Aziz-Project',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/Aziz-fer',
+    title: 'Tunisair airlines flight performance',
+    description: 'This repository contains the data pipeline and analysis to generate a daily key performance indicator report on Tunisair flight delays.',
+    url: 'https://github.com/Aziz-fer/Tunisair-airlines-flight-performance',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://github.com/Aziz-fer',
-    image: porfolioImage6,
+    title: 'Data Analysis from TxT files',
+    description: 'Python-based project that involves reading data from multiple files, each containing temperature data represented in different number systems (binary, quaternary, and octal). The data is converted to decimal format, visualized using Matplotlib,Numpy and optionally smoothed using spline interpolation from SciPy. Additionally, the project offers functionality to plot specific sections of the data on the x-axis.',
+    url: 'https://github.com/Aziz-fer/txt-data-analysis/tree/main',
+    image: porfolioImage1,
   },
 ];
 
