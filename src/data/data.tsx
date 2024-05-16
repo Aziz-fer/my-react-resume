@@ -273,7 +273,7 @@ export const education: TimelineItem[] = [
     date: 'April 2024',
     location: 'Technical University Of Dortmund',
     title: 'BSc. Computer Science',
-    content: <p>I completed my Bachlor Degree in 9 Semesters and got 2.7</p>,
+    content: <p>I completed my Bachlor Degree with minor in Data Science and Economics</p>,
   },
   {
     date: 'June 2018',
@@ -290,10 +290,21 @@ export const experience: TimelineItem[] = [
     title: 'Working Student Software Tester',
     content: (
       <p>
-        Worked with a 5-member team developing tools using Python to enable full Automation testing. We also worked with a team from turkey
-        to test different Pump Softwares.
-        Worked on a Project for 6 Months to develop a Matlab Gui using Wilo large databases from polarion and Excel Sheets to improve Motor efficiency of Wilo Pumps. 
-        I worked on cleaning the data necessary for predictive models, analysing quantitative data and representing them in form of Plots and Diagrams.
+       **Witest-App**
+Collaborated with a five-member team and external partners in Turkey to develop a comprehensive Python-based tool for testing our pump software products. Key contributions included:
+Developed data collection scripts using Polarion's REST API to efficiently gather necessary test data, followed by using SQL to systematically structure the data into well-organized tables.
+Implemented data processing routines to optimize test accuracy and performance.
+Supported the creation of a domain-specific language (DSL) to simplify writing test cases.
+Designed a Tkinter-based GUI for efficient management and retrieval of test cases.
+Designed and implemented Jenkins jobs within Jenkins CI/CD pipelines to achieve fully automated testing.
+Automated test execution and result presentation through dynamically generated HTML reports.
+Documented the process and presented project results in Tableau for stakeholders.
+**Matlab Dashboard**
+Worked on a MATLAB project to enhance the motor performance of Wilo pumps, focusing on advanced data analysis and visualization. Main responsibilities included:
+Extracted data from Polarion databases and Excel spreadsheets for analysis.
+Conducted data cleaning and comprehensive descriptive statistical analyses, including the calculation of descriptive statistics.
+Developed comprehensive dashboards with detailed plots and charts to visualize motor performance trends, enabling targeted improvements and optimizations.
+
       </p>
     ),
   },
