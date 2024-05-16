@@ -1,6 +1,7 @@
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
+  CalendarIcon,
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
@@ -11,10 +12,10 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/data_quad.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/HRDashboard.png';
-import porfolioImage4 from '../images/portfolio/SpaceX.png';
-import porfolioImage5 from '../images/portfolio/tunisair.png';
-import porfolioImage7 from '../images/portfolio/analysis.png';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -64,8 +65,8 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a computer science graduate based in dortmund , worked
-        at <strong className="text-stone-100">WILO</strong> as a Software Tester helping build Python tools using different data techniques 
-        and enabling full automation testing.
+        at <strong className="text-stone-100">WILO</strong> as a Software Testing helping build Python tools for Testing 
+        and Testing different software releases.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">All inklusive</strong>,
@@ -76,7 +77,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/AzizFeriani.pdf',
+      href: '/assets/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -98,6 +99,7 @@ export const aboutData: About = {
   Git, Bash and multiple other tools`,
   aboutItems: [
     {label: 'Location', text: 'Dortmund, Germany', Icon: MapIcon},
+    {label: 'Age', text: '24', Icon: CalendarIcon},
     {label: 'Interests', text: 'Gaming,Traveling,Fitness Training,Coding', Icon: SparklesIcon},
     {label: 'Study', text: 'Technical University Of Dortmund', Icon: AcademicCapIcon},
   ],
@@ -181,8 +183,8 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Data Science',
-        level: 10,
+        name: 'Kotlin',
+        level: 7,
       },
       {
         name: 'Typescript',
@@ -195,27 +197,27 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'NoSQL',
-        level: 10,
+        level: 9,
       },
       {
         name: 'Microsoft PowerBI',
-        level: 10,
+        level: 8,
       },
       {
-        name: 'ETL Tools',
-        level: 10,
+        name: 'Game Development using Godot/Unreal Engine',
+        level: 8,
       },
       {
         name: 'Amazon Web Services (AWS)',
-        level: 10,
+        level: 8,
       },
       {
-        name: 'Excel',
-        level: 10,
+        name: 'Terraform',
+        level: 6,
       },
       {
-        name: 'MYSQL',
-        level: 10,
+        name: 'Docker',
+        level: 5,
       },
     ],
   },
@@ -226,10 +228,10 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Analysis on Emerging Technology Skills and Trends',
-    description: 'Since I am currently interested in learning and mastering programming languages and skills, I completed this project to benefit myself and others. We will use a variety of data analytics skills and strategies here.',
-    url: 'https://github.com/Aziz-fer/Analysis-on-Emerging-Technology-Skills-and-Trends',
-    image: porfolioImage7,
+    title: 'Data Analysis from TxT files',
+    description: 'Python-based project that involves reading data from multiple files, each containing temperature data represented in different number systems (binary, quaternary, and octal). The data is converted to decimal format, visualized using Matplotlib,Numpy and optionally smoothed using spline interpolation from SciPy. Additionally, the project offers functionality to plot specific sections of the data on the x-axis.',
+    url: 'https://github.com/Aziz-fer/txt-data-analysis/tree/main',
+    image: porfolioImage1,
   },
   {
     title: 'Attack on Proof of Stake Algorithm Simulation',
@@ -238,28 +240,28 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: 'An HR Dashboard using MySQL and PowerBI',
-    description: 'This dashboard provides a comprehensive and real-time overview of key performance indicators (KPIs) to empower data-driven decision-making. It features an intuitive layout that segments data into clear, actionable insights, enabling quick analysis of trends, performance metrics, and operational efficiency. Designed for optimal user experience, it ensures that stakeholders can easily track progress, identify areas for improvement, and effectively manage business operations.',
-    url: 'https://github.com/Aziz-fer/An-HR-Dashboard-using-MySQL-and-PowerBI',
+    title: 'Project title 3',
+    description: 'Give a short description of your project here.',
+    url: 'https://github.com/Aziz-fer',
     image: porfolioImage3,
   },
   {
-    title: 'Space-X',
-    description: 'About Space X advertises Falcon 9 rocket launches on its website with a cost of 62 million dollars; other providers cost upward of 165 million dollars each, much of the savings is because Space X can reuse the first stage. Therefore if we can determine if the first stage will land, we can determine the cost of a launch.',
-    url: 'https://github.com/Aziz-fer/IBM-DataScience-SpaceX-Aziz-Project',
+    title: 'Project title 4',
+    description: 'Give a short description of your project here.',
+    url: 'https://github.com/Aziz-fer',
     image: porfolioImage4,
   },
   {
-    title: 'Tunisair airlines flight performance',
-    description: 'This repository contains the data pipeline and analysis to generate a daily key performance indicator report on Tunisair flight delays.',
-    url: 'https://github.com/Aziz-fer/Tunisair-airlines-flight-performance',
+    title: 'Project title 5',
+    description: 'Give a short description of your project here.',
+    url: 'https://github.com/Aziz-fer',
     image: porfolioImage5,
   },
   {
-    title: 'Data Analysis from TxT files',
-    description: 'Python-based project that involves reading data from multiple files, each containing temperature data represented in different number systems (binary, quaternary, and octal). The data is converted to decimal format, visualized using Matplotlib,Numpy and optionally smoothed using spline interpolation from SciPy. Additionally, the project offers functionality to plot specific sections of the data on the x-axis.',
-    url: 'https://github.com/Aziz-fer/txt-data-analysis/tree/main',
-    image: porfolioImage1,
+    title: 'Project title 6',
+    description: 'Give a short description of your project here.',
+    url: 'https://github.com/Aziz-fer',
+    image: porfolioImage6,
   },
 ];
 
@@ -268,10 +270,10 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'June 2024',
+    date: 'April 2024',
     location: 'Technical University Of Dortmund',
     title: 'BSc. Computer Science',
-    content: <p>I completed my Bachlor Degree with minor in Data Science and Economics</p>,
+    content: <p>I completed my Bachlor Degree in 9 Semesters and got 2.7</p>,
   },
   {
     date: 'June 2018',
@@ -288,20 +290,10 @@ export const experience: TimelineItem[] = [
     title: 'Working Student Software Tester',
     content: (
       <p>
-        **Witest-App**
-Collaborated with a five-member team and external partners in Turkey to develop a comprehensive Python-based tool for testing our pump software products. Key contributions included:
-Developed data collection scripts using Polarion's REST API to efficiently gather necessary test data, followed by using SQL to systematically structure the data into well-organized tables.
-Implemented data processing routines to optimize test accuracy and performance.
-Supported the creation of a domain-specific language (DSL) to simplify writing test cases.
-Designed a Tkinter-based GUI for efficient management and retrieval of test cases.
-Designed and implemented Jenkins jobs within Jenkins CI/CD pipelines to achieve fully automated testing.
-Automated test execution and result presentation through dynamically generated HTML reports.
-Documented the process and presented project results in Tableau for stakeholders.
-**Matlab Dashboard**
-Worked on a MATLAB project to enhance the motor performance of Wilo pumps, focusing on advanced data analysis and visualization. Main responsibilities included:
-Extracted data from Polarion databases and Excel spreadsheets for analysis.
-Conducted data cleaning and comprehensive descriptive statistical analyses, including the calculation of descriptive statistics.
-Developed comprehensive dashboards with detailed plots and charts to visualize motor performance trends, enabling targeted improvements and optimizations.
+        Worked with a 5-member team developing tools using Python to enable full Automation testing. We also worked with a team from turkey
+        to test different Pump Softwares.
+        Worked on a Project for 6 Months to develop a Matlab Gui using Wilo large databases from polarion and Excel Sheets to improve Motor efficiency of Wilo Pumps. 
+        I worked on cleaning the data necessary for predictive models, analysing quantitative data and representing them in form of Plots and Diagrams.
       </p>
     ),
   },
