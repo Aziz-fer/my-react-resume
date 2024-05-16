@@ -235,7 +235,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Since I am currently interested in learning and mastering programming languages and skills, I completed this project to benefit myself and others. We will use a variety of data analytics skills and strategies here.',
     url: 'https://github.com/Aziz-fer/Analysis-on-Emerging-Technology-Skills-and-Trends',
     image: porfolioImage7,
-  },
+  }, 
   {
     title: 'Attack on Proof of Stake Algorithm Simulation',
     description: 'Python-based project that involves implementing an algorithm resembling ETH2.0 Proof of Stake, developing an attack and then using different python libraries such as matplotlib,numpy,Math,random and tkinter. We are able to get a configurable Gui enabling us to visualize different plots and animations',
