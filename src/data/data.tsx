@@ -139,27 +139,23 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Test Automation',
-        level: 9,
+        level: 10,
       },
       {
         name: 'Matlab',
-        level: 9,
+        level: 10,
       },
       {
         name: 'Tortoise SVN/Git',
-        level: 9,
+        level: 10,
       },
       {
-        name: 'Polarion',
+        name: 'Polarion Cloud',
         level: 8,
       },
       {
-        name: 'NI TestStand/NI LabVIEW',
-        level: 6,
-      },
-      {
-        name: 'Jenkins',
-        level: 5,
+        name: 'CI/CD',
+        level: 9,
       },
     ],
   },
