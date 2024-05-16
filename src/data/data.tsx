@@ -183,8 +183,8 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Kotlin',
-        level: 7,
+        name: 'Data Science',
+        level: 10,
       },
       {
         name: 'Typescript',
@@ -197,27 +197,27 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'NoSQL',
-        level: 9,
+        level: 10,
       },
       {
         name: 'Microsoft PowerBI',
-        level: 8,
+        level: 10,
       },
       {
-        name: 'Game Development using Godot/Unreal Engine',
-        level: 8,
+        name: 'ETL Tools',
+        level: 10,
       },
       {
         name: 'Amazon Web Services (AWS)',
-        level: 8,
+        level: 10,
       },
       {
-        name: 'Terraform',
-        level: 6,
+        name: 'Excel',
+        level: 10,
       },
       {
-        name: 'Docker',
-        level: 5,
+        name: 'MYSQL',
+        level: 10,
       },
     ],
   },
@@ -270,7 +270,7 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2024',
+    date: 'June 2024',
     location: 'Technical University Of Dortmund',
     title: 'BSc. Computer Science',
     content: <p>I completed my Bachlor Degree with minor in Data Science and Economics</p>,
