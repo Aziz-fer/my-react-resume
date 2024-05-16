@@ -1,7 +1,6 @@
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
-  CalendarIcon,
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
@@ -15,7 +14,6 @@ import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/HRDashboard.png';
 import porfolioImage4 from '../images/portfolio/SpaceX.png';
 import porfolioImage5 from '../images/portfolio/tunisair.png';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/analysis.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
