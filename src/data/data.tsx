@@ -76,7 +76,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/AzizFeriani.pdf',
+      href: 'C://Users//feria//OneDrive//Documents//my-react-resume//public//assets//AzizFeriani.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
