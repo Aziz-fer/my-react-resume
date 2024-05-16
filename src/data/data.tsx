@@ -65,8 +65,8 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a computer science graduate based in dortmund , worked
-        at <strong className="text-stone-100">WILO</strong> as a Software Testing helping build Python tools for Testing 
-        and Testing different software releases.
+        at <strong className="text-stone-100">WILO</strong>as a Software Tester helping build Python tools using different data techniques 
+        and enabling full automation testing.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">All inklusive</strong>,
@@ -77,7 +77,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/AzizFeriani.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
